@@ -7,7 +7,7 @@ namespace Tests
         [Test]
         public void MyTest()
         {
-            Assert.AreEqual(2 + 2, 5);
+            Assert.AreEqual(2 + 2, 4);
         }
     }
 }
