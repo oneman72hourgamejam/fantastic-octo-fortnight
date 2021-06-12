@@ -8,6 +8,7 @@ namespace Tests
         public void MyTest()
         {
             Assert.AreEqual(2 + 2, 4);
+            Assert.AreEqual(2 + 3, 5);
         }
     }
 }
