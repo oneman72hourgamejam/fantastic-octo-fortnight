@@ -7,7 +7,11 @@ namespace Tests
         [Test]
         public void MyTest()
         {
-            Assert.AreEqual(2 + 2, 4);
+            Manager m = new Manager(2);
+
+            Assert.AreEqual(m.A, 2);
+            Assert.AreEqual(m.Add(2), 4);
+
         }
     }
 }
